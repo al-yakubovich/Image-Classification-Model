@@ -1,5 +1,6 @@
 # Convolutional Neural Network
 
+
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
@@ -79,6 +80,10 @@ classifier.fit_generator(training_set,
                          epochs = 25,
                          validation_data = test_set,
                          validation_steps = 2000)
+
+
+
+
 
 
 # without second convolutional layer
